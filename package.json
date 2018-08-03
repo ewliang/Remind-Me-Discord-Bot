@@ -1,0 +1,31 @@
+{
+  "name": "remindmediscordbot",
+  "version": "1.0.0",
+  "description": "A discord bot that generates a scheduled reminder for users, basically a scheduled \"Note to Self\" reminder.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ewliang/Remind-Me-Discord-Bot.git"
+  },
+  "keywords": [
+    "discordbot",
+    "discord",
+    "discord",
+    "bot",
+    "discord",
+    "nodejs",
+    "bot",
+    "eric",
+    "liang",
+    "bot"
+  ],
+  "author": "Eric Liang <ericwliang94@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ewliang/Remind-Me-Discord-Bot/issues"
+  },
+  "homepage": "https://github.com/ewliang/Remind-Me-Discord-Bot#readme"
+}
