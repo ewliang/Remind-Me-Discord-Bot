@@ -4,6 +4,8 @@
   "description": "A discord bot that generates a scheduled reminder for users, basically a scheduled \"Note to Self\" reminder.",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -27,5 +29,13 @@
   "bugs": {
     "url": "https://github.com/ewliang/Remind-Me-Discord-Bot/issues"
   },
-  "homepage": "https://github.com/ewliang/Remind-Me-Discord-Bot#readme"
+  "homepage": "https://github.com/ewliang/Remind-Me-Discord-Bot#readme",
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "discord.js-commando": "^0.10.0",
+    "moment": "^2.22.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
 }
