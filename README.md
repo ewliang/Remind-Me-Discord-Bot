@@ -12,34 +12,16 @@ RemindMeDiscord is a Discord Bot that allows users to make scheduled reminders o
 
 - [Installation](#installation)
 - [Features](#features)
-- [Contributing](#contributing)
 - [Team](#team)
 - [FAQ](#faq)
 - [Support](#support)
 - [License](#license)
 
-
----
-
-## Example (Optional)
-
-```javascript
-// code away!
-
-let generateProject = project => {
-  let code = [];
-  for (let js = 0; js < project.length; js++) {
-    code.push(js);
-  }
-};
-```
-
 ---
 
 ## Installation
 
-- All the `code` required to get started
-- Images of what it should look like
+- Make sure you have NPM and NODE installed on your machine.
 
 ### Clone
 
@@ -47,46 +29,30 @@ let generateProject = project => {
 
 ### Setup
 
-> install npm packages
-
-```shell
-$ npm install
-$ bower install
-```
-
-- For all the possible languages that support syntax highlithing on GitHub (which is basically all of them), refer <a href="https://github.com/github/linguist/blob/master/lib/linguist/languages.yml" target="_blank">here</a>.
+1. Clone the repository using `https://github.com/ewliang/Remind-Me-Discord-Bot.git`
+2. Go to the Discord developer's website while you are logged in to your Discord account via this URL [Discord Developer Applications](https://discordapp.com/developers/applications/).
+  - Create a new application. Give it a name and description.
+  - Copy the "Client ID"
+  - Next, add a "Bot" (NOTE - There is a toggle for making the bot public. By default, it's public. Public means anyone can add this bot of yours to their server. I recommend disabling it so only you can add it to server(s))
+3. Go here to get your Bot Authorization Flow URL: [Bot Authorization Flow](https://discordapp.com/developers/docs/topics/oauth2)
+  - Copy that URL and paste it somewhere convenient.
+  - Next, get the "Client ID" you copied earlier, and replace the default client_id string value in your Bot Authorization Flow URL with your Client ID.
+  - Set the permissions=1 to permissions=0
+4. With your newly updated Bot Authorization URL, use your browser and go to that URL.
+5. Select a server from the dropdown where you want to add your bot to. This is where the bot will do its thing. I recommend creating a new private server and testing it there first though.
+  - Click Authorize after selecting a server.
+  - You may now close the browser for that tab/window once it says it has been authorized.
+6. Go back to your application page in your browser from (Step 2). In the bot page where you created a new bot, find the section labeled "Token". Reveal it and copy the string that it reveals. Paste it into a config file in the application. (Make a folder called config/config.js.)
 
 ---
 
 ## Features
-## Usage (Optional)
-## Documentation (Optional)
-## Tests (Optional)
-
-- Going into more detail on code and technologies used
-- I utilized this nifty <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="_blank">Markdown Cheatsheet</a> for this sample `README`.
 
 ---
 
-## Contributing
-
-> To get started...
-
-### Step 1
-
-- **Option 1**
-    - 🍴 Fork this repo!
-
-- **Option 2**
-    - 👯 Clone this repo to your local machine using `https://github.com/ewliang/Remind-Me-Discord-Bot.git`
-
-### Step 2
-
-- **HACK AWAY!** 🔨🔨🔨
-
-### Step 3
-
-- 🔃 Create a new pull request using [](https://www.).
+## Usage (Optional)
+## Documentation (Optional)
+## Tests (Optional)
 
 ---
 
