@@ -48,12 +48,7 @@ RemindMeDiscord is a Discord Bot that allows users to make scheduled reminders o
 ---
 
 ## Features
-
----
-
-## Usage (Optional)
-## Documentation (Optional)
-## Tests (Optional)
+- Enables users in the Discord server to set timed message reminders in which this bot will repeat by sending it back out to the same server once the set time length has elapsed.
 
 ---
 
@@ -75,12 +70,6 @@ RemindMeDiscord is a Discord Bot that allows users to make scheduled reminders o
 Reach out to me at one of the following places!
 
 - Twitter at [@ericwliang](https://www.twitter.com/ericwliang)
-
----
-
-## Donations (Optional)
-
-
 
 ---
 
