@@ -54,7 +54,9 @@ RemindMeDiscord is a Discord Bot that allows users to make scheduled reminders o
 
 ## Team
 
-- [Eric Liang](https://www.github.com/ewliang)
+Eric Liang
+- GitHub [https://www.github.com/ewliang](https://www.github.com/ewliang)
+- Website [https://www.eric-liang.com](https://www.eric-liang.com)
 
 ---
 
