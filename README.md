@@ -60,8 +60,18 @@ RemindMeDiscord is a Discord Bot that allows users to make scheduled reminders o
 
 ## FAQ
 
-- **How do I do *specifically* so and so?**
-    - No problem! Just do this.
+- **How do I set a reminder?**
+    - The format to set a reminder is the following: !remindme <number time><time unit> <your message>
+    - For example: !remindme 50s Check and see if anyone has emailed me yet.
+  
+- **What time units does it support?**
+    - Seconds: s
+    - Minutes: m
+    - Hours: h
+    - Days: d
+
+- **Why do you not have support for "m" months?**
+    - The reason is it's rare for someone to be on discord for months, much less stay logged in that long, so it was most reasonable for me to end it at days being the longest time unit. Plus, you can just use a bigger number for days to mimic a month(s).
 
 ---
 
